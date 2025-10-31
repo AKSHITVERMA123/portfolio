@@ -1,5 +1,5 @@
-import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.js";
 import "../style.css";
 import tiagocar from "../../assets/TATATiagoCarImage.jpg";
 import python from "../../assets/Python2.png";

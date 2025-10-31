@@ -1,8 +1,8 @@
 import github from "../../assets/githubimage1.png";
 import linkedIn from "../../assets/l.png";
 import gmail from "../../assets/Gmail.png";
-import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.js";
 import { useEffect, useMemo, useRef, useState } from "react";
 import "../style.css";
 import axios from "axios";
