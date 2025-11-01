@@ -363,11 +363,10 @@ textarea {
 }
 
 .img[name='Express.js'] {
-  object-fit: cover;
-  aspect-ratio: 5/3;
+  object-fit: contain;
+  aspect-ratio: 3/1;
   width: 80%;
   transition: filter 0.6s ease;
-  font-size: 60%;
   filter: saturate(100%) invert(65%) sepia(70%) saturate(820%)
     hue-rotate(900deg) brightness(100%) contrast(100%);
 }
