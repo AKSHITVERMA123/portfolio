@@ -1,6 +1,6 @@
 import "../style.css";
 import html from "../../assets/HTML.png";
-import css from "../../assets/css.png";
+import css from "../../assets/CSS.png";
 import js from "../../assets/JavaScript.jpg";
 import React from "../../assets/React.svg";
 import angular from "../../assets/Angular.js.png";
