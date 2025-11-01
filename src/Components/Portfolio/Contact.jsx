@@ -107,7 +107,7 @@ const Contact = () => {
             }
             else if (validate(input) === false) {
                 if (id === 1) {
-                    msg = "Email is Not Valid, please give a valid Email !";
+                    msg = "Email is Not Valid, please give a valid Email !\nIt must contain at least one lowercase / uppercase letter, @gmail.com";
                 }
                 else {
                     msg = "UserName is not Valid, please give a valid UserName !";
@@ -121,7 +121,7 @@ const Contact = () => {
 
     const validate = (input) => {
         const nameRegex = /^[A-Za-z\s]+$/;
-        const emailRegex = /^[A-Za-z0-9]+@[a-z]{5}\.[a-z]{3}$/;
+        const emailRegex = /^[A-Za-z]+[0-9]*@[a-z]{5}\.[a-z]{3}$/;
         if (emailRegex.test(input[1].value) && nameRegex.test(input[0].value)) {
             return true;
         }
