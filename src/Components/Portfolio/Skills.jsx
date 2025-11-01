@@ -4,7 +4,7 @@ import css from "../../assets/css.png";
 import js from "../../assets/JavaScript.jpg";
 import React from "../../assets/React.svg";
 import angular from "../../assets/Angular.js.png";
-import Node from "../../assets/Node..js.png";
+import Node from "../../assets/Node.js.png";
 import Express from "../../assets/express-original-wordmark.svg";
 import SpringBoot from "../../assets/spring-boot-logo.png";
 import mysql from "../../assets/MySQL.png";

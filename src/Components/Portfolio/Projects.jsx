@@ -2,12 +2,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import "../style.css";
 import tiagocar from "../../assets/TATATiagoCarImage.jpg";
-import python from "../../assets/Python2.png";
+import python from "../../assets/Python.png";
 import stopwatch from "../../assets/StopWatchClock.png";
 import TodoApp from "../../assets/TodoList.png";
 import TicTacToe from "../../assets/TicTacToe.png";
 import SPT from "../../assets/SPT.png";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";    
 import { useState } from "react";
 
 const Projects = () => {
