@@ -1,4 +1,4 @@
-import express from 'express';
+﻿import express from 'express';
 import mongoose from "mongoose";
 import cors from "cors";
 import User from './Portfolio/model/User.js';
@@ -18,7 +18,7 @@ app.get("/User", async (req, res) => {
     try {
         const users = await User.find();
         res.json(users);
-        console.log("\nUser Fetched Successfully!\n" + users[users.length - 1]);
+        console.log("\n ✅ User Fetched Successfully!\n" + users[users.length - 1]);
     } catch (err) {
         console.error(err);
         res.status(500).json({ error: "Failed to fetch data" });

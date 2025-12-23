@@ -182,9 +182,9 @@ const Contact = () => {
                 </div>
                 <button id="ClickMessage" type="submit" className="sm bg-success text-light mt-3 m-auto" ref={btnref} onMouseOver={changecolor} onClick={msgSent}>Send Message</button>
             </form>
-            <footer className="footer bg-black pt-4 mt-5">
+            <footer className="footer bg-black">
+                <span className="quick_links fw-bold">Quick Links</span>
                 <div className="footer_content">
-                    <span className="quick_links fw-bold">Quick Links</span>
                     <div className="d-flex flex-column align-items-center">
                         <a href="#" id="Home">Home</a>
                         <a href="#about" id="About">About</a>
@@ -192,11 +192,11 @@ const Contact = () => {
                         <a href="#projects" id="Projects">Projects</a>
                         <a href="#contact" id="Contacts">Contact</a>
                     </div>
-                </div>
-                <div className="address">
-                    <div>Address: </div>
-                    <div>Jalalabad Distt - Shahjahanpur</div>
-                    <div>Uttar Pradesh, India, 242221</div>
+                    <div className="address">
+                        <div className="add1">Address: </div>
+                        <div className="add2">Shahjahanpur</div>
+                        <div className="add3">Uttar Pradesh, India</div>
+                    </div>
                 </div>
                 <div className="d-flex justify-content-between">
                     <div>

@@ -104,7 +104,7 @@ const Portfolio = () => {
                     In my free time, I like developing side projects and learning new technologies.</span>
             </div>
             <About />
-            <h2 id="skills" className="skill mt-5 mb-3">Skills</h2>
+            <h2 id="skills" className="skill mt-5 mb-5">Skills</h2>
             <div className="namedSkills cursor-pointer">
                 <Skills id={1} name="HTML5"></Skills>
                 <Skills id={2} name="CSS3"></Skills>
@@ -121,7 +121,6 @@ const Portfolio = () => {
                 <Skills id={13} name="MongoDB"></Skills>
                 <Skills id={14} name="Github"></Skills>
             </div>
-
             <Projects />
             <Contact />
         </div>
