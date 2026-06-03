@@ -194,7 +194,7 @@ const Contact = () => {
                     </div>
                     <div className="address">
                         <div className="add1">Address: </div>
-                        <div className="add2">Shahjahanpur</div>
+                        <div className="add2">Bareilly</div>
                         <div className="add3">Uttar Pradesh, India</div>
                     </div>
                 </div>
@@ -210,8 +210,8 @@ const Contact = () => {
                 </div>
                 <div className="d-flex justify-content-center">
                     <span>
-                        Copyright © &nbsp;
-                        All right reserved. 2025
+                        Copyright © &nbsp; By Akshit Verma
+                        All right reserved. 2026
                     </span>
                 </div>
             </footer>
